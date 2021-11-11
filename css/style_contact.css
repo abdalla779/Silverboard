@@ -1,0 +1,74 @@
+.container{
+    width: 55%;
+    height: 500px;
+    background-color: #c8e7f0;
+    position: absolute;
+    top: 19%;
+    left: 24%; 
+    border-radius: 7px;
+    box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.2);
+}
+.container .info{
+    background-color: #7eb8da;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border-radius: 7px 7px 0px 0px;
+}
+.container .info h3{
+    font-size: 25px;
+    padding-top: 10px;
+    color: #3e6312;
+}
+.container .info p{
+    font-size: 17px;
+    margin-top: 13px;
+}
+.container .contact_form{
+    width: 100%;
+    
+}
+.container .contact_form form{
+    width: 50%;
+    margin:  40px auto;
+}
+.container .contact_form form label{
+    width: 80px;
+    color: #617a07;
+    margin: 7px 4px 7px 0px;
+    font-weight: bold;
+}
+.container .contact_form form input{
+    width: 100%;
+    height: 25px;
+    margin: 7px 4px 7px 0px;
+    border-radius: 4px;
+    padding: 0px 5px;
+    border-color: #617a07;
+}
+.container .contact_form form textarea{
+    width: 100%;
+    height: 100px;
+    margin: 7px 4px 7px 0px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid #617a07;
+}
+.container .contact_form form button{
+    float: right;
+    background-color: #617a07;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.container .contact_form form button:hover{
+    background-color: #7eb8da;
+    color: white;
+}
